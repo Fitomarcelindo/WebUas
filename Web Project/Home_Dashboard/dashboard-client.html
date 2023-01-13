@@ -321,11 +321,11 @@
               <div class="table-title">
                 <div class="row">
                   <div class="col-sm-5">
-                    <h2>Customer <b>Service</b></h2>
+                    <h2><b>Client</b></h2>
                   </div>
                   <div class="col-sm-7">
-                    <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Add New
-                        User</span></a>
+                    <!-- <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Add New
+                        User</span></a> -->
                     <a href="#" class="btn btn-secondary"><i class="material-icons">&#xE24D;</i> <span>Export to
                         Excel</span></a>
                   </div>
@@ -378,7 +378,7 @@
                           Moreno</a></td>
                       <td>11/05/2015</td>
                       <td>Publisher</td>
-                      <td><span class="status text-danger">&bull;</span> Suspended</td>
+                      <td><span class="status text-danger">&ensp; &bull;</span> Suspended</td>
                       <td>
                         <div class="btn-group">
                           <button type="submit" class="btn btn-success btn-sm rounded-1 mr-3">Accept</button>
@@ -416,7 +416,10 @@
                     </tr>
                   </tbody>
                 </table>
+                <!-- last table -->
+
               </div>
+              <!-- last table responsive 1 -->
               <div class="clearfix">
                 <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
                 <div class="pagenation">
@@ -430,10 +433,150 @@
                     <li class="page-item"><a href="#" class="page-link">Next</a></li>
                 </div>
                 </ul>
+                <!-- last clearfix -->
               </div>
+
+              <!-- last table wraper -->
+            </div>
+            <!-- last table responsive -->
+          </div>
+          <!-- last container -->
+        </div>
+
+        <!-- card Show Detail  -->
+        <div class="container-xl">
+          <div class="table-responsive">
+            <div class="table-wrapper">
+              <div class="table-title">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <h2> <b>Show Detail Teknisi</b></h2>
+                  </div>
+                  <div class="col-sm-7">
+                    <!-- <a href="#" class="btn btn-secondary rounded-1"><i
+                                      class="material-icons">&#xE147;</i> <span>Add New
+                                      User</span></a> -->
+                    <!-- <a href="#" class="btn btn-secondary rounded-1"><i class="material-icons">&#xE24D;</i> <span>Export
+                        to
+                        Excel</span></a> -->
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion 1 -->
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show mb-3 mt-3 mr-3 ml-3"
+                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+                    <!-- Card -->
+                    <div class="row">
+                      <!-- 1 -->
+                      <div class="col-sm-4 mb-2">
+                        <div class="card" style="border:1px solid black;">
+                          <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural
+                              lead-in to additional content.</p>
+                            <a href="#" class="btn btn-danger">Reject</a>
+                            <a href="#" class="btn btn-success">Accept</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End 1 -->
+                    </div>
+                    <!-- End Card -->
+                  </div>
+                  <!-- End Collapse 2 -->
+                </div>
+                <!-- End Acoordion -->
+              </div>
+              <!-- End Accordion 1 -->
+              <!--Modal Launch Button-->
+              <button type="button" class="mt-2 btn btn-info" data-toggle="modal"
+                data-target="#myModal">Feedback </button>
             </div>
           </div>
         </div>
+        <!-- last -->
+
+        <!--  -->
+              <!--Division for Modal-->
+              <div id="myModal" class="modal fade" role="dialog">
+
+                <!--Modal-->
+                <div class="modal-dialog">
+
+                  <!--Modal Content-->
+                  <div class="modal-content">
+
+                    <!-- Modal Header-->
+                    <div class="modal-header">
+                      <h3>Feedback Request</h3>
+
+                      <!--Close/Cross Button-->
+                      <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+                    </div>
+
+                    <!-- Modal Body-->
+                    <div class="modal-body text-center">
+                      <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+                      <h3>Your opinion matters</h3>
+                      <h5>Help us improve our product? <strong>Give us your feedback.</strong></h5>
+                      <hr>
+                      <h6>Your Rating</h6>
+                    </div>
+
+                    <!-- Radio Buttons for Rating-->
+                    <div class="form-check mb-4">
+                      <input name="feedback" type="radio">
+                      <label class="ml-3">Very good</label>
+                    </div>
+                    <div class="form-check mb-4">
+                      <input name="feedback" type="radio">
+                      <label class="ml-3">Good</label>
+                    </div>
+                    <div class="form-check mb-4">
+                      <input name="feedback" type="radio">
+                      <label class="ml-3">Mediocre</label>
+                    </div>
+                    <div class="form-check mb-4">
+                      <input name="feedback" type="radio">
+                      <label class="ml-3">Bad</label>
+                    </div>
+                    <div class="form-check mb-4">
+                      <input name="feedback" type="radio">
+                      <label class="ml-3">Very Bad</label>
+                    </div>
+
+                    <!--Text Message-->
+                    <div class="text-center p-3">
+                      <h4>What could we improve?</h4>
+                    </div>
+                    <textarea type="textarea" class="border border-2 p-3 ms-2 me-2 rounded-2" placeholder="Your Message" rows="3"></textarea>
+
+
+                    <!-- Modal Footer-->
+                    <div class="modal-footer">
+                      <a href="" class="btn btn-primary">Send
+                        <i class="fa fa-paper-plane"></i>
+                      </a>
+                      <a href="" class="btn btn-outline-primary" data-dismiss="modal">Cancel</a>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!--  -->
+
       </body>
 
       <!--  -->
