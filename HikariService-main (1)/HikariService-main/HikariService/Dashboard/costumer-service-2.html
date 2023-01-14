@@ -97,8 +97,8 @@
 
             <!-- Nav Item - Costumer Service Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="costumer-service.html" data-target="#collapseUtilities" aria-expanded="true"
-                    aria-controls="collapseUtilities">
+                <a class="nav-link collapsed" href="costumer-service.html" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-id-badge"></i>
                     <span>Costumer Service</span>
                 </a>
@@ -197,7 +197,8 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="../Login And Register/index-login.html" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="../Login And Register/index-login.html"
+                                    data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -217,9 +218,39 @@
                     <p class="mb-4">Accept/Reject Request, <a href="#idTable" style="text-decoration: none;">See
                             Below</a>.</p>
 
-                    <!-- Accordion -->
-                    <div class="accordion" id="accordionExample">
+                    <div class="col-sm-6 pt-2 mb-4">
                         <div class="card">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Mohon Tenaga Untuk Pergantian Panel Surya
+                                </h5>
+                                <hr>
+                                <div class="pt-2">
+                                    Date: <input class="form-control" type="text"
+                                        placeholder="Tuesday, 17 January 2023 - 11.40 Am" readonly>
+                                </div>
+
+                                <div class="pt-2">
+                                    Adress: <input class="form-control" type="text" placeholder="Jl Garuda No 21, Rt 07"
+                                        readonly>
+                                </div>
+
+                                <div class="form-group pt-2">
+                                    <label for="exampleFormControlTextarea1">Deskripsi:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Text Disini" readonly></textarea>
+                                </div>
+
+                                <a href="#" class="btn btn-success ml-2 float-right">Accept</a>
+                                <a href="#" class="btn btn-danger ml-2 float-right">Reject</a>
+                                <a href="#" class="btn btn-outline-primary ml-2 float-right">Close This Complaint</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion -->
+                    <div class="accordion " id="accordionExample">
+                        <div class="card ml-2">
                             <div class="card-header" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true">
                                 <span class="title">Requests #1 </span>
@@ -229,80 +260,30 @@
                                 <div class="card-body">
                                     <!-- Card -->
                                     <div class="row">
+
                                         <div class="col-sm-6 pt-2">
                                             <div class="card">
                                                 <div class="card-body text-dark">
-                                                    <h5 class="card-title">Mohon Tenaga Untuk Pergantian Panel Surya
-                                                    </h5>
+                                                    <h5 class="card-title">Compliant</h5>
                                                     <hr>
                                                     <div class="pt-2">
-                                                        Date: <input class="form-control" type="text"
+                                                        Username: <input class="form-control" type="text"
                                                             placeholder="Tuesday, 17 January 2023 - 11.40 Am" readonly>
                                                     </div>
-
+                    
                                                     <div class="pt-2">
-                                                        Adress: <input class="form-control" type="text"
-                                                            placeholder="Jl Garuda No 21, Rt 07" readonly>
-                                                    </div>
-
-                                                    <div class="pt-2">
-                                                        Quota: <input class="form-control" type="text" placeholder="0"
+                                                        Full Name: <input class="form-control" type="text" placeholder="Jl Garuda No 21, Rt 07"
                                                             readonly>
                                                     </div>
 
-                                                    <div class="form-group pt-2">
-                                                        <label for="exampleFormControlTextarea1">Deskripsi:</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                            rows="3" placeholder="Text Disini" readonly></textarea>
+                                                    <div class="pt-2">
+                                                        NIK: <input class="form-control" type="text" placeholder="7171xxxxxx"
+                                                            readonly>
                                                     </div>
 
-                                                    <a href="#" class="btn btn-success ml-2 float-right">Accept</a>
-                                                    <a href="#" class="btn btn-danger  ml-2 float-right">Reject</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                                    <a href="#" class="btn btn-success mb-4 mt-3">Whatsapp</a>
 
-                                        <div class="col-sm-6 pt-2">
-                                            <div class="card">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Send Reports</h5>
-                                                    <hr>
-                                                    <p class="card-text">Create Field Reports.</p>
-
-                                                    <a href="#" class="btn btn-primary mb-4">Make Reports</a>
-
-                                                    <!-- Nested Accordion -->
-                                                    <div id="accordion1">
-                                                        <div class="card">
-                                                            <div class="card-header" id="heading-1">
-                                                                <h5 class="mb-0">
-                                                                    <a role="button" data-toggle="collapse"
-                                                                        href="#collapse-1" aria-expanded="true"
-                                                                        aria-controls="collapse-1"
-                                                                        style="text-decoration: none; color: #5a5c69;">
-                                                                        See Fields Reports
-                                                                    </a>
-                                                                </h5>
-                                                            </div>
-
-                                                            <div id="collapse-1" class="collapse show"
-                                                                data-parent="#accordion1" aria-labelledby="heading-1">
-                                                                <div class="card-body">
-                                                                    <div class="card justify-content-center"
-                                                                        style="width: 18rem;">
-                                                                        <img class="card-img-top" src="./img/sesto.jpg"
-                                                                            alt="Card image cap">
-                                                                        <div class="card-body">
-                                                                            <p class="card-text">Lamborghini Sesto
-                                                                                Elemento</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Nested -->
-
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -388,173 +369,6 @@
                         </div>
 
 
-                        <div class="card">
-                            <div class="card-header collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
-                                <span class="title">Requests #2</span>
-                                <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
-                            </div>
-                            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <!-- Card -->
-                                    <div class="row">
-                                        <div class="col-sm-6 pt-2">
-                                            <div class="card">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Mohon Tenaga Untuk Pergantian Panel Surya
-                                                    </h5>
-                                                    <hr>
-                                                    <div class="pt-2">
-                                                        Date: <input class="form-control" type="text"
-                                                            placeholder="Tuesday, 17 January 2023 - 11.40 Am" readonly>
-                                                    </div>
-
-                                                    <div class="pt-2">
-                                                        Adress: <input class="form-control" type="text"
-                                                            placeholder="Jl Garuda No 21, Rt 07" readonly>
-                                                    </div>
-
-                                                    <div class="pt-2">
-                                                        Quota: <input class="form-control" type="text" placeholder="0"
-                                                            readonly>
-                                                    </div>
-
-                                                    <div class="form-group pt-2">
-                                                        <label for="exampleFormControlTextarea1">Deskripsi:</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                            rows="3" placeholder="Text Disini" readonly></textarea>
-                                                    </div>
-
-                                                    <a href="#" class="btn btn-success ml-2 float-right">Accept</a>
-                                                    <a href="#" class="btn btn-danger  ml-2 float-right">Reject</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6 pt-2">
-                                            <div class="card">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Send Reports</h5>
-                                                    <hr>
-                                                    <p class="card-text">Create Field Reports.</p>
-
-                                                    <a href="#" class="btn btn-primary mb-4">Make Reports</a>
-
-                                                    <!-- Nested Accordion -->
-                                                    <div id="accordion1">
-                                                        <div class="card">
-                                                            <div class="card-header" id="heading-1">
-                                                                <h5 class="mb-0">
-                                                                    <a role="button" data-toggle="collapse"
-                                                                        href="#collapse-1" aria-expanded="true"
-                                                                        aria-controls="collapse-1"
-                                                                        style="text-decoration: none; color: #5a5c69;">
-                                                                        See Fields Reports
-                                                                    </a>
-                                                                </h5>
-                                                            </div>
-
-                                                            <div id="collapse-1" class="collapse show"
-                                                                data-parent="#accordion1" aria-labelledby="heading-1">
-                                                                <div class="card-body">
-                                                                    <div class="card justify-content-center"
-                                                                        style="width: 18rem;">
-                                                                        <img class="card-img-top" src="./img/sesto.jpg"
-                                                                            alt="Card image cap">
-                                                                        <div class="card-body">
-                                                                            <p class="card-text">Lamborghini Sesto
-                                                                                Elemento</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Nested -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6 pt-2">
-                                            <div class="card">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Prices</h5>
-                                                    <hr>
-                                                    <p class="card-text">This Is The Detail Prices</p>
-
-                                                    <!-- Nested Accordion 2 -->
-                                                    <div id="accordion">
-                                                        <div class="card">
-                                                            <div class="card-header" id="heading-2">
-                                                                <h5 class="mb-0">
-                                                                    <a class="collapsed" role="button"
-                                                                        data-toggle="collapse" href="#collapse-2"
-                                                                        aria-expanded="false" aria-controls="collapse-2"
-                                                                        style="text-decoration: none; color: #5a5c69;">
-                                                                        Set Prices
-                                                                    </a>
-                                                                </h5>
-                                                            </div>
-                                                            <div id="collapse-2" class="collapse"
-                                                                data-parent="#accordion" aria-labelledby="heading-2">
-                                                                <div class="card-body">
-                                                                    <div class="pt-2">
-                                                                        NULL: <input class="form-control" type="text"
-                                                                            placeholder="$12000">
-                                                                    </div>
-
-                                                                    <div class="pt-2">
-                                                                        NULL: <input class="form-control" type="text"
-                                                                            placeholder="$8000">
-                                                                    </div>
-
-                                                                    <div class="pt-2">
-                                                                        NULL: <input class="form-control" type="text"
-                                                                            placeholder="$1200">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-sm-6 pt-2">
-                                            <div class="card">
-                                                <div class="card-body text-dark">
-                                                    <h5 class="card-title">Mechanic</h5>
-                                                    <hr>
-                                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
-                                                        <div class="card p-4">
-                                                            <div
-                                                                class=" image d-flex flex-column justify-content-center align-items-center">
-                                                                <button class="btn btn-secondary"> <img
-                                                                        src="./img/profile.jpg"
-                                                                        height="100" width="100" /></button> <span
-                                                                    class="name mt-3">Fitto Martcellindo</span> <span
-                                                                    class="idd">fito2016@gmail.com</span>
-                                                                <div
-                                                                    class="d-flex flex-row justify-content-center align-items-center mt-3">
-                                                                    <span class="number">21 <span
-                                                                            class="follow">Electrician</span></span>
-                                                                </div>
-                                                                <div class=" px-2 rounded mt-4 date "> <span
-                                                                        class="join">Joined May,2020</span> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <!-- End Card -->
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                     <!-- End -->

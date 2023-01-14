@@ -51,6 +51,12 @@
         .card-header:not(.collapsed) .rotate-icon {
             transform: rotate(180deg);
         }
+
+        input[readonly] {
+            background-color: transparent;
+            border: 0;
+            font-size: 1em;
+        }
     </style>
 
 </head>
@@ -91,7 +97,7 @@
 
             <!-- Nav Item - Costumer Service Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="costumer-service-1.html" data-target="#collapseUtilities"
+                <a class="nav-link collapsed" href="costumer-service.html" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-id-badge"></i>
                     <span>Costumer Service</span>
@@ -208,178 +214,153 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Mechanics</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Customer Service</h1>
                     <p class="mb-4">Accept/Reject Request, <a href="#idTable" style="text-decoration: none;">See
                             Below</a>.</p>
 
-                    <!-- Konten disini gan -->
-                    <div class="row">
-                        <div class="col-sm-10 pt-2 pb-4">
-                            <div class="card">
-                                <div class="card-body text-dark">
-                                    <h5 class="card-title">Mohon Tenaga Untuk Pergantian Panel Surya
-                                    </h5>
-                                    <hr>
-                                    <div class="pt-2">
-                                        Date: <input class="form-control" type="text"
-                                            placeholder="Tuesday, 17 January 2023 - 11.40 Am" readonly>
-                                    </div>
-
-                                    <div class="pt-2">
-                                        Adress: <input class="form-control" type="text"
-                                            placeholder="Jl Garuda No 21, Rt 07" readonly>
-                                    </div>
-
-                                    <div class="pt-2">
-                                        Quota: <input class="form-control" type="text" placeholder="0" readonly>
-                                    </div>
-
-                                    <div class="form-group pt-2">
-                                        <label for="exampleFormControlTextarea1">Deskripsi:</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                            placeholder="Text Disini" readonly></textarea>
-                                    </div>
-
-                                    <a href="#" class="btn btn-primary ml-2 float-right">Take This Job</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Konten -->
-
-                    <!-- Konten 2 -->
-                    <!-- Card -->
-                    <div class="row">
-                        <div class="col-sm-10">
-                            <div class="card">
-                                <div class="card-body text-dark">
-                                    <h5 class="card-title">Reports Informations</h5>
-                                    <hr>
-                                    <p class="card-text">See Reports Information.</p>
-
-                                    <!-- Modal -->
-
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#exampleModalCenter2">
-                                        See Reports
-                                    </button>
-
-                                    <!-- Modal -->
-                                    <div data-spy="scroll" class="modal fade" id="exampleModalCenter2" tabindex="-1"
-                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">
-                                                        Reports</h5>
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    ...
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-danger"
-                                                        data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-success">See
-                                                        Reports</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- End Modal -->
-
-                                    <!-- Button Wa -->
-                                    <a href="#" class="btn btn-success mr-2">Whatsapp</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Konten 2 -->
-                    </div>
-                    <!-- End -->
-
-                    <!-- Konten 3 -->
-                    <div class="row pt-4">
-                        <div class="col-sm-10">
-                            <div class="card">
-                                <div class="card-body text-dark">
-                                    <h5 class="card-title">Set Prices</h5>
-                                    <hr>
-                                    <p class="card-text">Set Fields Prices.</p>
-
-                                    <!-- Modal -->
-
-                                    <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#exampleModalCenter3">
-                                        Set Prices
-                                    </button>
-
-                                    <!-- Modal -->
-                                    <div data-spy="scroll" class="modal fade" id="exampleModalCenter3" tabindex="-1"
-                                        role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">
-                                                        Prices</h5>
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    ...
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-danger"
-                                                        data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-success">Save</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Modal -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Konten 4 -->
-                    <div class="row">
-                    <div class="col-sm-10 pt-4">
+                    <div class="col-sm-6 pt-2 mb-4">
                         <div class="card">
                             <div class="card-body text-dark">
-                                <h5 class="card-title">Mechanic</h5>
+                                <h5 class="card-title">Mohon Tenaga Untuk Pergantian Panel Surya
+                                </h5>
                                 <hr>
-                                <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
-                                    <div class="card p-4">
-                                        <div
-                                            class=" image d-flex flex-column justify-content-center align-items-center">
-                                            <button class="btn btn-secondary"> <img src="./img/profile.jpg"
-                                                    class="rounded" height="100" width="100" /></button> <span
-                                                class="name mt-3">Fitto Martcellindo</span> <span
-                                                class="idd">fito2016@gmail.com</span>
-                                            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
-                                                <span class="number">21 Years Old <span
-                                                        class="follow">Electrician</span><br></span>
+                                <div class="pt-2">
+                                    Date: <input class="form-control" type="text"
+                                        placeholder="Tuesday, 17 January 2023 - 11.40 Am" readonly>
+                                </div>
+
+                                <div class="pt-2">
+                                    Adress: <input class="form-control" type="text" placeholder="Jl Garuda No 21, Rt 07"
+                                        readonly>
+                                </div>
+
+                                <div class="form-group pt-2">
+                                    <label for="exampleFormControlTextarea1">Deskripsi:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Text Disini" readonly></textarea>
+                                </div>
+
+                                <a href="#" class="btn btn-success ml-2 float-right">Accept</a>
+                                <a href="#" class="btn btn-danger ml-2 float-right">Reject</a>
+                                <a href="#" class="btn btn-outline-primary ml-2 float-right">Close This Complaint</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion -->
+                    <div class="accordion " id="accordionExample">
+                        <div class="card ml-2">
+                            <div class="card-header" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true">
+                                <span class="title">Requests #1 </span>
+                                <span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+                            </div>
+                            <div id="collapseOne" class="collapse" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- Card -->
+                                    <div class="row">
+
+                                        <div class="col-sm-6 pt-2">
+                                            <div class="card">
+                                                <div class="card-body text-dark">
+                                                    <h5 class="card-title">Send Reports</h5>
+                                                    <hr>
+                                                    <p class="card-text">Create Field Reports.</p>
+
+                                                    <a href="#" class="btn btn-primary mb-4">Make Reports</a>
+
+                                                    
+                                                </div>
                                             </div>
-                                            <div class=" px-2 rounded mt-4 date "> <span class="join">Joined
-                                                    May,2020</span> </div>
                                         </div>
+
+                                        <div class="col-sm-6 pt-2">
+                                            <div class="card">
+                                                <div class="card-body text-dark">
+                                                    <h5 class="card-title">Prices</h5>
+                                                    <hr>
+                                                    <p class="card-text">This Is The Detail Prices</p>
+
+                                                    <!-- Nested Accordion 2 -->
+                                                    <div id="accordion">
+                                                        <div class="card">
+                                                            <div class="card-header" id="heading-2">
+                                                                <h5 class="mb-0">
+                                                                    <a class="collapsed" role="button"
+                                                                        data-toggle="collapse" href="#collapse-2"
+                                                                        aria-expanded="false" aria-controls="collapse-2"
+                                                                        style="text-decoration: none; color: #5a5c69;">
+                                                                        Set Prices
+                                                                    </a>
+                                                                </h5>
+                                                            </div>
+                                                            <div id="collapse-2" class="collapse"
+                                                                data-parent="#accordion" aria-labelledby="heading-2">
+                                                                <div class="card-body">
+                                                                    <div class="pt-2">
+                                                                        NULL: <input class="form-control" type="text"
+                                                                            placeholder="$12000">
+                                                                    </div>
+
+                                                                    <div class="pt-2">
+                                                                        NULL: <input class="form-control" type="text"
+                                                                            placeholder="$8000">
+                                                                    </div>
+
+                                                                    <div class="pt-2">
+                                                                        NULL: <input class="form-control" type="text"
+                                                                            placeholder="$1200">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 pt-2">
+                                            <div class="card">
+                                                <div class="card-body text-dark">
+                                                    <h5 class="card-title">Mechanic</h5>
+                                                    <hr>
+                                                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+                                                        <div class="card p-4">
+                                                            <div
+                                                                class=" image d-flex flex-column justify-content-center align-items-center">
+                                                                <button class="btn btn-secondary"> <img
+                                                                        src="./img/profile.jpg" class="rounded"
+                                                                        height="100" width="100" /></button> <span
+                                                                    class="name mt-3">Fitto Martcellindo</span> <span
+                                                                    class="idd">fito2016@gmail.com</span>
+                                                                <div
+                                                                    class="d-flex flex-row justify-content-center align-items-center mt-3">
+                                                                    <span class="number">21 Years Old <span
+                                                                            class="follow">Electrician</span><br></span>
+                                                                </div>
+                                                                <div class=" px-2 rounded mt-4 date "> <span
+                                                                        class="join">Joined May,2020</span> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
+                                    <!-- End Card -->
                                 </div>
                             </div>
                         </div>
-                    </div> 
-                    </div>
-                    <!-- end konten 4-->
 
+
+
+                    </div>
+                    <!-- End -->
                 </div>
+
                 <!-- /.container-fluid -->
 
             </div>
